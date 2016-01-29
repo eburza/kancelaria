@@ -6,10 +6,10 @@
     <link rel="stylesheet" href="css/main.css" type="text/css">
     <title>Kancelaria Radcy Prawnego | Michał Włodarczyk</title>
   </head>
-  <body>
-    <div id="logo">
-        <img id="icon" src="img/logo.gif" alt="Logo Krajowa Izba Radców Prawnych">
-        <img id="icon_text" src="img/logo_text.gif" alt="kancelaria prawnicza Michał Włodarczyk">
+  <body class="bg" id="contact_bg">
+ <div id="logo">
+     <a href="index.html"><img id="logo_01" src="img/logo_01.gif" alt="Logo Krajowa Izba Radców Prawnych"></a>
+        <img id="logo_text" src="img/logo_text.gif" alt="kancelaria prawnicza Michał Włodarczyk">
     </div>
     <div id="menu">
         <ul>
@@ -20,7 +20,34 @@
         </ul>
     </div>
     <div id="content">
-        
+        <img class="pic_content" src="img/contact.jpg" alt="contact">
+        <h1>Napisz do mnie</h1>
+        <form action="m.wlodarczyk@post.pl" method="get">
+            <fieldset>
+                <legend>
+                    Twoje dane:
+                </legend>
+                <label>
+                    Imie:
+                    <input type="text" name="name" size="30" maxlength="100">
+                </label>
+                <br />
+                <label>
+                    Twój email:
+                    <input type="email" name="email" size="30" maxlength="100">
+                </label> 
+                <br />
+                <p>
+                    <label for="message">
+                        Wiadomość
+                    </label>
+                    <br />
+                    <textarea rows="5" cols="50" id="message">
+                    </textarea>
+                </p>
+                <input type="submit" value="Wyślij"/>
+            </fieldset>
+        </form>
      </div>
   </body>
 <footer>
